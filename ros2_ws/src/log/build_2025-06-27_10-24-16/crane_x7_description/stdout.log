@@ -1,0 +1,108 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/ros2_ws/src/build/crane_x7_description
+Built target ament_cmake_python_symlink_crane_x7_description
+running egg_info
+creating crane_x7_description.egg-info
+writing crane_x7_description.egg-info/PKG-INFO
+writing dependency_links to crane_x7_description.egg-info/dependency_links.txt
+writing top-level names to crane_x7_description.egg-info/top_level.txt
+writing manifest file 'crane_x7_description.egg-info/SOURCES.txt'
+reading manifest file 'crane_x7_description.egg-info/SOURCES.txt'
+writing manifest file 'crane_x7_description.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_crane_x7_description_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//config/dummy_controllers.yaml
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//launch/display.launch.py
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//launch/display.rviz
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/base_fixed_part.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/base_fixed_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/mounting_plate.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/mounting_plate.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_fixed_part.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_fixed_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_revolute_part.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_revolute_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_fixed_part.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_fixed_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_revolute_part.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_revolute_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_actuator.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_actuator.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_a.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_a.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_b.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_b.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/wrist.skp
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/collision/wrist.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/base_fixed_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/base_revolute_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/joint_cover.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/mounting_plate.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_1_fixed_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_1_revolute_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_2_fixed_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_2_revolute_part.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/rtcorp_logo_name.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/rtcorp_logo_rabbit.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/wide_two_finger_gripper_actuator.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/wide_two_finger_gripper_finger_a.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/wide_two_finger_gripper_finger_b.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//meshes/visual/wrist.stl
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.gazebo.xacro
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.gazebo_ros2_control.xacro
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.ros2_control.xacro
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.urdf.xacro
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.xacro
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_arm.xacro
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_mounting_plate.xacro
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_rt_logos.xacro
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_wide_two_finger_gripper.xacro
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/environment/pythonpath.sh
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/environment/pythonpath.dsv
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/local/lib/python3.10/dist-packages/crane_x7_description-3.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/local/lib/python3.10/dist-packages/crane_x7_description-3.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/local/lib/python3.10/dist-packages/crane_x7_description-3.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/local/lib/python3.10/dist-packages/crane_x7_description-3.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/local/lib/python3.10/dist-packages/crane_x7_description/__init__.py
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/local/lib/python3.10/dist-packages/crane_x7_description/robot_description_loader.py
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/lib/crane_x7_description/robot_description_loader.py
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/ament_index/resource_index/package_run_dependencies/crane_x7_description
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/ament_index/resource_index/parent_prefix_path/crane_x7_description
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/environment/ament_prefix_path.sh
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/environment/ament_prefix_path.dsv
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/environment/path.sh
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/environment/path.dsv
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/local_setup.bash
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/local_setup.sh
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/local_setup.zsh
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/local_setup.dsv
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/package.dsv
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/ament_index/resource_index/packages/crane_x7_description
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/cmake/crane_x7_descriptionConfig.cmake
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/cmake/crane_x7_descriptionConfig-version.cmake
+-- Symlinking: /workspace/ros2_ws/src/install/crane_x7_description/share/crane_x7_description/package.xml
+Listing '/workspace/ros2_ws/src/install/crane_x7_description/local/lib/python3.10/dist-packages/crane_x7_description'...
+Compiling '/workspace/ros2_ws/src/install/crane_x7_description/local/lib/python3.10/dist-packages/crane_x7_description/__init__.py'...
+Compiling '/workspace/ros2_ws/src/install/crane_x7_description/local/lib/python3.10/dist-packages/crane_x7_description/robot_description_loader.py'...

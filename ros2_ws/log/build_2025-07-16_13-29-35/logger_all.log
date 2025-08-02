@@ -1,0 +1,230 @@
+[0.429s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'move_arm_hockey']
+[0.429s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['move_arm_hockey'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f1584a21750>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1584b2a710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1584b2a710>>, mixin_verb=('build',))
+[0.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.998s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[1.000s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[1.002s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[1.002s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.003s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/ros2_ws'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['ignore', 'ignore_ament_install']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'ignore_ament_install'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['colcon_pkg']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'colcon_pkg'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['colcon_meta']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'colcon_meta'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['ros']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'ros'
+[1.057s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_description' with type 'ros.ament_cmake' and name 'crane_x7_description'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'colcon_meta'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'ros'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['cmake', 'python']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'cmake'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'python'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['python_setup_py']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'python_setup_py'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['ignore', 'ignore_ament_install']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'ignore_ament_install'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['colcon_pkg']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'colcon_pkg'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['colcon_meta']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'colcon_meta'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['ros']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'ros'
+[1.062s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7' with type 'ros.ament_cmake' and name 'crane_x7'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['ignore', 'ignore_ament_install']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'ignore'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'ignore_ament_install'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['colcon_pkg']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'colcon_pkg'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['colcon_meta']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'colcon_meta'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['ros']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'ros'
+[1.067s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_control' with type 'ros.ament_cmake' and name 'crane_x7_control'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'ignore'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'ignore_ament_install'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['colcon_pkg']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'colcon_pkg'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['colcon_meta']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'colcon_meta'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['ros']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'ros'
+[1.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_examples' with type 'ros.ament_cmake' and name 'crane_x7_examples'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'ignore'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'ignore_ament_install'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['colcon_pkg']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'colcon_pkg'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['colcon_meta']
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'colcon_meta'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['ros']
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'ros'
+[1.080s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_gazebo' with type 'ros.ament_cmake' and name 'crane_x7_gazebo'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'ignore'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'ignore_ament_install'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['colcon_pkg']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'colcon_pkg'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['colcon_meta']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'colcon_meta'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['ros']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'ros'
+[1.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_moveit_config' with type 'ros.ament_cmake' and name 'crane_x7_moveit_config'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/move_arm_hockey) by extensions ['ignore', 'ignore_ament_install']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/move_arm_hockey) by extension 'ignore'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/move_arm_hockey) by extension 'ignore_ament_install'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/move_arm_hockey) by extensions ['colcon_pkg']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/move_arm_hockey) by extension 'colcon_pkg'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/move_arm_hockey) by extensions ['colcon_meta']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/move_arm_hockey) by extension 'colcon_meta'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/move_arm_hockey) by extensions ['ros']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/move_arm_hockey) by extension 'ros'
+[1.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/move_arm_hockey' with type 'ros.ament_cmake' and name 'move_arm_hockey'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.208s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'crane_x7_description' in 'src/crane_x7_description'
+[1.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'crane_x7_gazebo' in 'src/crane_x7_ros/crane_x7_gazebo'
+[1.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'crane_x7_control' in 'src/crane_x7_ros/crane_x7_control'
+[1.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'crane_x7_moveit_config' in 'src/crane_x7_ros/crane_x7_moveit_config'
+[1.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'crane_x7_examples' in 'src/crane_x7_ros/crane_x7_examples'
+[1.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'crane_x7' in 'src/crane_x7_ros/crane_x7'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'move_arm_hockey' build argument 'cmake_args' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'move_arm_hockey' build argument 'cmake_target' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'move_arm_hockey' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'move_arm_hockey' build argument 'cmake_clean_cache' from command line to 'False'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'move_arm_hockey' build argument 'cmake_clean_first' from command line to 'False'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'move_arm_hockey' build argument 'cmake_force_configure' from command line to 'False'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'move_arm_hockey' build argument 'ament_cmake_args' from command line to 'None'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'move_arm_hockey' build argument 'catkin_cmake_args' from command line to 'None'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'move_arm_hockey' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.217s] DEBUG:colcon.colcon_core.verb:Building package 'move_arm_hockey' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/move_arm_hockey', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/move_arm_hockey', 'merge_install': False, 'path': '/workspace/ros2_ws/src/crane_x7_ros/move_arm_hockey', 'symlink_install': False, 'test_result_base': None}
+[1.218s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.227s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/crane_x7_ros/move_arm_hockey' with build type 'ament_cmake'
+[1.227s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/crane_x7_ros/move_arm_hockey'
+[1.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/move_arm_hockey': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/move_arm_hockey -- -j16 -l16
+[2.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/move_arm_hockey' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/move_arm_hockey -- -j16 -l16
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/move_arm_hockey': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/move_arm_hockey
+[2.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_arm_hockey)
+[2.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/move_arm_hockey' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/move_arm_hockey
+[2.648s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey' for CMake module files
+[2.649s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey' for CMake config files
+[2.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_arm_hockey', 'cmake_prefix_path')
+[2.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/hook/cmake_prefix_path.ps1'
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/hook/cmake_prefix_path.dsv'
+[2.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/hook/cmake_prefix_path.sh'
+[2.658s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/lib'
+[2.658s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/bin'
+[2.658s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/lib/pkgconfig/move_arm_hockey.pc'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/lib/python3.10/site-packages'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/bin'
+[2.664s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.ps1'
+[2.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.dsv'
+[2.668s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.sh'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.bash'
+[2.673s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.zsh'
+[2.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/move_arm_hockey/share/colcon-core/packages/move_arm_hockey)
+[2.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_arm_hockey)
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey' for CMake module files
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey' for CMake config files
+[2.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_arm_hockey', 'cmake_prefix_path')
+[2.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/hook/cmake_prefix_path.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/hook/cmake_prefix_path.dsv'
+[2.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/hook/cmake_prefix_path.sh'
+[2.686s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/lib'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/bin'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/lib/pkgconfig/move_arm_hockey.pc'
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/lib/python3.10/site-packages'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/move_arm_hockey/bin'
+[2.691s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.ps1'
+[2.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.dsv'
+[2.695s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.sh'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.bash'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.zsh'
+[2.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/move_arm_hockey/share/colcon-core/packages/move_arm_hockey)
+[2.702s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.704s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.704s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.722s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.728s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.729s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.731s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.ps1'
+[2.736s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_ws/install/_local_setup_util_ps1.py'
+[2.744s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.ps1'
+[2.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.sh'
+[2.751s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_ws/install/_local_setup_util_sh.py'
+[2.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.sh'
+[2.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.bash'
+[2.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.bash'
+[2.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.zsh'
+[2.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.zsh'

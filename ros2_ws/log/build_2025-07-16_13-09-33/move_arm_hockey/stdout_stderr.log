@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target move_arm_by_motor[0m
+[  0%] Built target ament_cmake_python_copy_python
+[100%] Built target move_arm_by_motor
+running egg_info
+writing python.egg-info/PKG-INFO
+writing dependency_links to python.egg-info/dependency_links.txt
+writing top-level names to python.egg-info/top_level.txt
+reading manifest file 'python.egg-info/SOURCES.txt'
+writing manifest file 'python.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_python_egg
+-- Install configuration: ""
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/lib/move_arm_hockey/move_arm_by_motor
+-- Installing: /workspace/ros2_ws/install/move_arm_hockey/lib/move_arm_hockey/inference.py
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/pythonpath.sh
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/pythonpath.dsv
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info
+-- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info/PKG-INFO
+-- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info/top_level.txt
+-- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/__init__.py
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey/__init__.py
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey/ik.py
+Listing '/workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python'...
+Listing '/workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey'...
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/ament_index/resource_index/package_run_dependencies/move_arm_hockey
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/ament_index/resource_index/parent_prefix_path/move_arm_hockey
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/path.sh
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/local_setup.bash
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/local_setup.sh
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/local_setup.zsh
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/local_setup.dsv
+-- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.dsv
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/ament_index/resource_index/packages/move_arm_hockey
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/cmake/move_arm_hockeyConfig.cmake
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/cmake/move_arm_hockeyConfig-version.cmake
+-- Up-to-date: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.xml

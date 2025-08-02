@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7ff77c4cb0009af9d2ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "move_arm_hockey",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_python_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_python_egg-4a4682f5e0a0eacd075c.json",
+					"name" : "ament_cmake_python_build_python_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_python-45cdc37f3c9a97623a2d.json",
+					"name" : "ament_cmake_python_copy_python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_arm_by_motor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_arm_by_motor-e520078ba4892945957d.json",
+					"name" : "move_arm_by_motor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_arm_hockey_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_arm_hockey_uninstall-61d089676f11b9547a41.json",
+					"name" : "move_arm_hockey_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-710c3063d63d8ab1dfa8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/ros2_ws/build/move_arm_hockey",
+		"source" : "/workspace/ros2_ws/src/crane_x7_ros/move_arm_hockey"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

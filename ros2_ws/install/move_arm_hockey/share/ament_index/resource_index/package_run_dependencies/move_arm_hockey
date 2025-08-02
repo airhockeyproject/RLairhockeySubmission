@@ -1,0 +1,1 @@
+angles;crane_x7_control;crane_x7_description;crane_x7_moveit_config;cv_bridge;geometry_msgs;image_geometry;libopencv-dev;moveit_ros_planning_interface;pcl_ros;rclcpp;realsense2_camera;tf2_geometry_msgs;std_msgs;sensor_msgs;ament_cmake_python;rclpy;numpy;stable_baselines3;ament_lint_auto;ament_lint_common

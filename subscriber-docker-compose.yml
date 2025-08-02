@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  move_arm:
+    image: crane_x7_humble_debug_custom:latest
+    container_name: move_arm_crane_x7_dev_1
+    privileged: true
+    networks:
+      - ros2-net
+    environment:
+      - DISPLAY=${DISPLAY}
+      - XAUTHORITY=/tmp/.docker.xauth
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${HOME}/.Xauthority:/tmp/.docker.xauth:ro
+      - /home/hsr_pc3/Desktop/rl_hockey/move_arm:/workspace
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    runtime: nvidia
+    stdin_open: true
+    tty: true
+
+networks:
+  ros2-net:
+    external: true

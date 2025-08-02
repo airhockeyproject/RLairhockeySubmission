@@ -1,0 +1,90 @@
+[0.028s] Invoking command in '/workspace/ros2_ws/build/move_arm_hockey': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/move_arm_hockey -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/move_arm_hockey
+[0.198s] -- The C compiler identification is GNU 11.4.0
+[0.398s] -- The CXX compiler identification is GNU 11.4.0
+[0.427s] -- Detecting C compiler ABI info
+[0.654s] -- Detecting C compiler ABI info - done
+[0.679s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.680s] -- Detecting C compile features
+[0.681s] -- Detecting C compile features - done
+[0.695s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[1.004s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.005s] -- Detecting CXX compile features
+[1.007s] -- Detecting CXX compile features - done
+[1.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.572s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.922s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.095s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.127s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.160s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.216s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.493s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.508s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.817s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.931s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.131s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.177s] -- Looking for pthread.h
+[3.405s] -- Looking for pthread.h - found
+[3.408s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.623s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.628s] -- Found Threads: TRUE  
+[3.871s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[3.881s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.539s] -- Configuring done
+[4.572s] -- Generating done
+[4.590s] -- Build files have been written to: /workspace/ros2_ws/build/move_arm_hockey
+[4.614s] Invoked command in '/workspace/ros2_ws/build/move_arm_hockey' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/move_arm_hockey -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/move_arm_hockey
+[4.618s] Invoking command in '/workspace/ros2_ws/build/move_arm_hockey': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/move_arm_hockey -- -j16 -l16
+[4.766s] [ 50%] [32mBuilding CXX object CMakeFiles/move_arm_by_motor.dir/src/move_arm_by_motor.cpp.o[0m
+[4.789s] [ 50%] Built target ament_cmake_python_copy_python
+[5.770s] running egg_info
+[5.772s] creating python.egg-info
+[5.773s] writing python.egg-info/PKG-INFO
+[5.773s] writing dependency_links to python.egg-info/dependency_links.txt
+[5.774s] writing top-level names to python.egg-info/top_level.txt
+[5.774s] writing manifest file 'python.egg-info/SOURCES.txt'
+[5.793s] reading manifest file 'python.egg-info/SOURCES.txt'
+[5.793s] writing manifest file 'python.egg-info/SOURCES.txt'
+[5.877s] [ 50%] Built target ament_cmake_python_build_python_egg
+[38.428s] [100%] [32m[1mLinking CXX executable move_arm_by_motor[0m
+[40.108s] [100%] Built target move_arm_by_motor
+[40.138s] Invoked command in '/workspace/ros2_ws/build/move_arm_hockey' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/move_arm_hockey -- -j16 -l16
+[40.151s] Invoking command in '/workspace/ros2_ws/build/move_arm_hockey': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/move_arm_hockey
+[40.173s] -- Install configuration: ""
+[40.174s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/lib/move_arm_hockey/move_arm_by_motor
+[40.184s] -- Set runtime path of "/workspace/ros2_ws/install/move_arm_hockey/lib/move_arm_hockey/move_arm_by_motor" to ""
+[40.184s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/lib/move_arm_hockey/inference.py
+[40.185s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/pythonpath.sh
+[40.185s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/pythonpath.dsv
+[40.185s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info
+[40.186s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info/dependency_links.txt
+[40.186s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info/PKG-INFO
+[40.186s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info/top_level.txt
+[40.187s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python-4.4.0-py3.10.egg-info/SOURCES.txt
+[40.187s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python
+[40.187s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/__init__.py
+[40.188s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey
+[40.188s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey/__init__.py
+[40.188s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey/ik.py
+[40.339s] Listing '/workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python'...
+[40.339s] Compiling '/workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/__init__.py'...
+[40.340s] Listing '/workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey'...
+[40.340s] Compiling '/workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey/__init__.py'...
+[40.340s] Compiling '/workspace/ros2_ws/install/move_arm_hockey/local/lib/python3.10/dist-packages/python/move_arm_hockey/ik.py'...
+[40.356s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/ament_index/resource_index/package_run_dependencies/move_arm_hockey
+[40.357s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/ament_index/resource_index/parent_prefix_path/move_arm_hockey
+[40.357s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/ament_prefix_path.sh
+[40.357s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/ament_prefix_path.dsv
+[40.358s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/path.sh
+[40.358s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/environment/path.dsv
+[40.358s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/local_setup.bash
+[40.360s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/local_setup.sh
+[40.361s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/local_setup.zsh
+[40.361s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/local_setup.dsv
+[40.362s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.dsv
+[40.362s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/ament_index/resource_index/packages/move_arm_hockey
+[40.362s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/cmake/move_arm_hockeyConfig.cmake
+[40.363s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/cmake/move_arm_hockeyConfig-version.cmake
+[40.400s] -- Installing: /workspace/ros2_ws/install/move_arm_hockey/share/move_arm_hockey/package.xml
+[40.400s] Invoked command in '/workspace/ros2_ws/build/move_arm_hockey' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/move_arm_hockey

@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bc014800654069b4b551.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "crane_x7_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection-c4b469b5f809a6902358.json",
+					"name" : "aruco_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartesian_path::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartesian_path-828b2203d6de59b0dae6.json",
+					"name" : "cartesian_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "color_detection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-color_detection-bf7365a2defacea2251c.json",
+					"name" : "color_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crane_x7_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crane_x7_examples_uninstall-27d7f939988313d5acb8.json",
+					"name" : "crane_x7_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_control-7e8c79bd1352d846915c.json",
+					"name" : "gripper_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_values::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_values-978a9d66d1a86aaf69cd.json",
+					"name" : "joint_values",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_and_place::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_and_place-4920282ad6e84877c407.json",
+					"name" : "pick_and_place",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_and_place_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_and_place_tf-3d215933201d1f081d07.json",
+					"name" : "pick_and_place_tf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_detection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_detection-6af780f89917e8c5222b.json",
+					"name" : "point_cloud_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_groupstate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_groupstate-e11787bf07d35ea50726.json",
+					"name" : "pose_groupstate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-665f1b6b478a0060aebe.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/ros2_ws/src/build/crane_x7_examples",
+		"source" : "/workspace/ros2_ws/src/crane_x7_ros/crane_x7_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

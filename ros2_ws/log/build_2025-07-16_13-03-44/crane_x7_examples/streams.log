@@ -1,0 +1,173 @@
+[0.046s] Invoking command in '/workspace/ros2_ws/build/crane_x7_examples': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/crane_x7_examples -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crane_x7_examples
+[0.233s] -- The C compiler identification is GNU 11.4.0
+[0.425s] -- The CXX compiler identification is GNU 11.4.0
+[0.450s] -- Detecting C compiler ABI info
+[0.657s] -- Detecting C compiler ABI info - done
+[0.688s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.688s] -- Detecting C compile features
+[0.690s] -- Detecting C compile features - done
+[0.700s] -- Detecting CXX compiler ABI info
+[0.987s] -- Detecting CXX compiler ABI info - done
+[1.012s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.012s] -- Detecting CXX compile features
+[1.014s] -- Detecting CXX compile features - done
+[1.031s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.600s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.038s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.224s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.245s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.291s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.647s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[2.660s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[3.200s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.862s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.065s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.270s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.284s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.610s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.720s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.933s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.985s] -- Found Threads: TRUE  
+[5.182s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.290s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[5.625s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.815s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.815s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.508s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[6.639s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[6.741s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[6.855s] -- Found OpenCV: /usr (found version "4.5.4") found components: core 
+[6.864s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[7.001s] -- Checking for module 'eigen3'
+[7.043s] --   Found eigen3, version 3.4.0
+[7.128s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.128s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.219s] -- Checking for module 'flann'
+[7.261s] --   Found flann, version 1.9.1
+[7.380s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.380s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[10.331s] -- Checking for module 'libusb-1.0'
+[10.375s] --   Found libusb-1.0, version 1.0.25
+[10.485s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.488s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.678s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.250s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.267s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.290s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.829s] -- Found Qhull version 8.0.2
+[12.391s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.948s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[12.952s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[12.957s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[12.958s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[12.961s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[12.963s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[12.964s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[12.965s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[12.967s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[12.970s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[12.973s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[12.975s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[12.978s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[12.983s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[12.987s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[12.991s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[12.995s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[13.000s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[13.004s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[13.008s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[13.012s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[13.013s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[13.014s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[13.017s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[13.020s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[13.036s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[13.511s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.827s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.830s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.836s] -- Configured cppcheck include dirs: 
+[13.836s] -- Configured cppcheck exclude dirs and/or files: 
+[13.839s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.840s] -- Configured cpplint exclude dirs and/or files: 
+[13.841s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.844s] -- Added test 'lint_cmake' to check CMake code style
+[13.850s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.850s] -- Added test 'uncrustify' to check C / C++ code style
+[13.850s] -- Configured uncrustify additional arguments: 
+[13.851s] -- Added test 'xmllint' to check XML markup files
+[13.855s] -- Configuring done
+[15.191s] -- Generating done
+[15.640s] -- Build files have been written to: /workspace/ros2_ws/build/crane_x7_examples
+[15.709s] Invoked command in '/workspace/ros2_ws/build/crane_x7_examples' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/crane_x7_examples -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crane_x7_examples
+[15.710s] Invoking command in '/workspace/ros2_ws/build/crane_x7_examples': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/crane_x7_examples -- -j16 -l16
+[15.885s] [  5%] [32mBuilding CXX object CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o[0m
+[15.889s] [ 11%] [32mBuilding CXX object CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.o[0m
+[15.890s] [ 16%] [32mBuilding CXX object CMakeFiles/pose_groupstate.dir/src/pose_groupstate.cpp.o[0m
+[15.892s] [ 22%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[15.893s] [ 27%] [32mBuilding CXX object CMakeFiles/joint_values.dir/src/joint_values.cpp.o[0m
+[15.912s] [ 33%] [32mBuilding CXX object CMakeFiles/point_cloud_detection.dir/src/point_cloud_detection.cpp.o[0m
+[15.918s] [ 38%] [32mBuilding CXX object CMakeFiles/aruco_detection.dir/src/aruco_detection.cpp.o[0m
+[15.919s] [ 44%] [32mBuilding CXX object CMakeFiles/color_detection.dir/src/color_detection.cpp.o[0m
+[15.922s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_and_place_tf.dir/src/pick_and_place_tf.cpp.o[0m
+[50.639s] [ 55%] [32m[1mLinking CXX executable gripper_control[0m
+[50.689s] [ 61%] [32m[1mLinking CXX executable joint_values[0m
+[50.808s] [ 66%] [32m[1mLinking CXX executable pose_groupstate[0m
+[51.224s] [ 72%] [32m[1mLinking CXX executable pick_and_place[0m
+[51.548s] [ 77%] [32m[1mLinking CXX executable cartesian_path[0m
+[53.127s] [ 83%] [32m[1mLinking CXX executable pick_and_place_tf[0m
+[53.287s] [ 83%] Built target pose_groupstate
+[53.352s] [ 83%] Built target gripper_control
+[53.438s] [ 83%] Built target joint_values
+[54.173s] [ 83%] Built target pick_and_place
+[54.391s] [ 83%] Built target cartesian_path
+[55.925s] [ 83%] Built target pick_and_place_tf
+[68.165s] [ 88%] [32m[1mLinking CXX executable aruco_detection[0m
+[69.343s] [ 94%] [32m[1mLinking CXX executable color_detection[0m
+[74.103s] [ 94%] Built target aruco_detection
+[75.166s] [ 94%] Built target color_detection
+[75.846s] [100%] [32m[1mLinking CXX executable point_cloud_detection[0m
+[81.692s] [100%] Built target point_cloud_detection
+[81.716s] Invoked command in '/workspace/ros2_ws/build/crane_x7_examples' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/crane_x7_examples -- -j16 -l16
+[81.720s] Invoking command in '/workspace/ros2_ws/build/crane_x7_examples': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/crane_x7_examples
+[81.741s] -- Install configuration: ""
+[81.746s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/gripper_control
+[81.746s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/gripper_control" to ""
+[81.746s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/cartesian_path
+[81.747s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/cartesian_path" to ""
+[81.747s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pose_groupstate
+[81.747s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pose_groupstate" to ""
+[81.747s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/joint_values
+[81.747s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/joint_values" to ""
+[81.748s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place
+[81.750s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place" to ""
+[81.750s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place_tf
+[81.750s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place_tf" to ""
+[81.750s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/aruco_detection
+[81.762s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/aruco_detection" to ""
+[81.762s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/color_detection
+[81.773s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/color_detection" to ""
+[81.773s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/point_cloud_detection
+[81.784s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/point_cloud_detection" to ""
+[81.785s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch
+[81.785s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/camera_example.rviz
+[81.785s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/demo.launch.py
+[81.786s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/example.launch.py
+[81.786s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/camera_example.launch.py
+[81.786s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/ament_index/resource_index/package_run_dependencies/crane_x7_examples
+[81.787s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/ament_index/resource_index/parent_prefix_path/crane_x7_examples
+[81.787s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/ament_prefix_path.sh
+[81.788s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/ament_prefix_path.dsv
+[81.788s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/path.sh
+[81.789s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/path.dsv
+[81.789s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.bash
+[81.791s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.sh
+[81.793s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.zsh
+[81.793s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.dsv
+[81.794s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.dsv
+[81.794s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/ament_index/resource_index/packages/crane_x7_examples
+[81.794s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/cmake/crane_x7_examplesConfig.cmake
+[81.794s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/cmake/crane_x7_examplesConfig-version.cmake
+[81.794s] -- Installing: /workspace/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.xml
+[81.816s] Invoked command in '/workspace/ros2_ws/build/crane_x7_examples' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_gazebo:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/crane_x7_examples

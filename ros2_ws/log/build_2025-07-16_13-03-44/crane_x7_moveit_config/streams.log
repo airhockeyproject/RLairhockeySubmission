@@ -1,0 +1,54 @@
+[0.022s] Invoking command in '/workspace/ros2_ws/build/crane_x7_moveit_config': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/crane_x7_moveit_config -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crane_x7_moveit_config
+[0.206s] -- The C compiler identification is GNU 11.4.0
+[0.395s] -- The CXX compiler identification is GNU 11.4.0
+[0.425s] -- Detecting C compiler ABI info
+[0.652s] -- Detecting C compiler ABI info - done
+[0.680s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.680s] -- Detecting C compile features
+[0.682s] -- Detecting C compile features - done
+[0.691s] -- Detecting CXX compiler ABI info
+[0.956s] -- Detecting CXX compiler ABI info - done
+[0.980s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.981s] -- Detecting CXX compile features
+[0.982s] -- Detecting CXX compile features - done
+[0.992s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.551s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.913s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.224s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.231s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.232s] -- Added test 'lint_cmake' to check CMake code style
+[2.234s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.238s] -- Added test 'xmllint' to check XML markup files
+[2.242s] -- Configuring done
+[2.249s] -- Generating done
+[2.253s] -- Build files have been written to: /workspace/ros2_ws/build/crane_x7_moveit_config
+[2.263s] Invoked command in '/workspace/ros2_ws/build/crane_x7_moveit_config' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/crane_x7_moveit_config -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crane_x7_moveit_config
+[2.267s] Invoking command in '/workspace/ros2_ws/build/crane_x7_moveit_config': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/crane_x7_moveit_config -- -j16 -l16
+[2.375s] Invoked command in '/workspace/ros2_ws/build/crane_x7_moveit_config' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/crane_x7_moveit_config -- -j16 -l16
+[2.378s] Invoking command in '/workspace/ros2_ws/build/crane_x7_moveit_config': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/crane_x7_moveit_config
+[2.400s] -- Install configuration: ""
+[2.401s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config//launch
+[2.401s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config//launch/run_move_group.launch.py
+[2.402s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config//launch/run_move_group.rviz
+[2.402s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config//config
+[2.403s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config//config/controllers.yaml
+[2.403s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config//config/kinematics.yaml
+[2.403s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config//config/joint_limits.yaml
+[2.404s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config//config/crane_x7.srdf
+[2.404s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config//config/ompl_planning.yaml
+[2.405s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/ament_index/resource_index/package_run_dependencies/crane_x7_moveit_config
+[2.405s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/ament_index/resource_index/parent_prefix_path/crane_x7_moveit_config
+[2.405s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/environment/ament_prefix_path.sh
+[2.406s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/environment/ament_prefix_path.dsv
+[2.406s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/environment/path.sh
+[2.407s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/environment/path.dsv
+[2.407s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/local_setup.bash
+[2.407s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/local_setup.sh
+[2.408s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/local_setup.zsh
+[2.408s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/local_setup.dsv
+[2.408s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.dsv
+[2.409s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/ament_index/resource_index/packages/crane_x7_moveit_config
+[2.409s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/cmake/crane_x7_moveit_configConfig.cmake
+[2.410s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/cmake/crane_x7_moveit_configConfig-version.cmake
+[2.411s] -- Installing: /workspace/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.xml
+[2.414s] Invoked command in '/workspace/ros2_ws/build/crane_x7_moveit_config' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/crane_x7_moveit_config

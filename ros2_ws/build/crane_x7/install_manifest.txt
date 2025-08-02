@@ -1,0 +1,15 @@
+/workspace/ros2_ws/install/crane_x7/share/ament_index/resource_index/package_run_dependencies/crane_x7
+/workspace/ros2_ws/install/crane_x7/share/ament_index/resource_index/parent_prefix_path/crane_x7
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/environment/ament_prefix_path.sh
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/environment/ament_prefix_path.dsv
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/environment/path.sh
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/environment/path.dsv
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/local_setup.bash
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/local_setup.sh
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/local_setup.zsh
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/local_setup.dsv
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/package.dsv
+/workspace/ros2_ws/install/crane_x7/share/ament_index/resource_index/packages/crane_x7
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/cmake/crane_x7Config.cmake
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/cmake/crane_x7Config-version.cmake
+/workspace/ros2_ws/install/crane_x7/share/crane_x7/package.xml

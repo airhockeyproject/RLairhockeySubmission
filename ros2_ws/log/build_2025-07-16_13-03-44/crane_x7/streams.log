@@ -1,0 +1,39 @@
+[0.042s] Invoking command in '/workspace/ros2_ws/build/crane_x7': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/crane_x7 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crane_x7
+[0.203s] -- The C compiler identification is GNU 11.4.0
+[0.383s] -- The CXX compiler identification is GNU 11.4.0
+[0.416s] -- Detecting C compiler ABI info
+[0.612s] -- Detecting C compiler ABI info - done
+[0.638s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.639s] -- Detecting C compile features
+[0.640s] -- Detecting C compile features - done
+[0.651s] -- Detecting CXX compiler ABI info
+[0.879s] -- Detecting CXX compiler ABI info - done
+[0.912s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.915s] -- Detecting CXX compile features
+[0.916s] -- Detecting CXX compile features - done
+[0.927s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.434s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.976s] -- Configuring done
+[1.984s] -- Generating done
+[1.987s] -- Build files have been written to: /workspace/ros2_ws/build/crane_x7
+[2.003s] Invoked command in '/workspace/ros2_ws/build/crane_x7' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/crane_x7 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crane_x7
+[2.004s] Invoking command in '/workspace/ros2_ws/build/crane_x7': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/crane_x7 -- -j16 -l16
+[2.100s] Invoked command in '/workspace/ros2_ws/build/crane_x7' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/crane_x7 -- -j16 -l16
+[2.103s] Invoking command in '/workspace/ros2_ws/build/crane_x7': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/crane_x7
+[2.126s] -- Install configuration: ""
+[2.127s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/ament_index/resource_index/package_run_dependencies/crane_x7
+[2.127s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/ament_index/resource_index/parent_prefix_path/crane_x7
+[2.128s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/environment/ament_prefix_path.sh
+[2.128s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/environment/ament_prefix_path.dsv
+[2.129s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/environment/path.sh
+[2.129s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/environment/path.dsv
+[2.130s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/local_setup.bash
+[2.130s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/local_setup.sh
+[2.131s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/local_setup.zsh
+[2.131s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/local_setup.dsv
+[2.132s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/package.dsv
+[2.132s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/ament_index/resource_index/packages/crane_x7
+[2.132s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/cmake/crane_x7Config.cmake
+[2.133s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/cmake/crane_x7Config-version.cmake
+[2.133s] -- Installing: /workspace/ros2_ws/install/crane_x7/share/crane_x7/package.xml
+[2.137s] Invoked command in '/workspace/ros2_ws/build/crane_x7' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_control:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/crane_x7

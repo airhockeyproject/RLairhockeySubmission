@@ -1,0 +1,95 @@
+[0.032s] Invoking command in '/workspace/ros2_ws/build/crane_x7_control': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/crane_x7_control -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crane_x7_control
+[0.228s] -- The C compiler identification is GNU 11.4.0
+[0.423s] -- The CXX compiler identification is GNU 11.4.0
+[0.448s] -- Detecting C compiler ABI info
+[0.673s] -- Detecting C compiler ABI info - done
+[0.699s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.700s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.711s] -- Detecting CXX compiler ABI info
+[0.967s] -- Detecting CXX compiler ABI info - done
+[0.995s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.996s] -- Detecting CXX compile features
+[0.998s] -- Detecting CXX compile features - done
+[1.006s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.551s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.898s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.068s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.092s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.128s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.234s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.058s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.073s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.159s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.314s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.324s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.378s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.392s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.415s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.451s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.490s] -- Looking for pthread.h
+[3.694s] -- Looking for pthread.h - found
+[3.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.915s] -- Found Threads: TRUE  
+[4.089s] -- Found rt_manipulators_cpp: 1.0.0 (/opt/ros/humble/share/rt_manipulators_cpp/cmake)
+[4.207s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.529s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.535s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.535s] -- Configured cppcheck include dirs: /workspace/ros2_ws/src/crane_x7_ros/crane_x7_control/include
+[4.536s] -- Configured cppcheck exclude dirs and/or files: 
+[4.540s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.541s] -- Configured cpplint exclude dirs and/or files: 
+[4.544s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.546s] -- Added test 'lint_cmake' to check CMake code style
+[4.549s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.553s] -- Added test 'uncrustify' to check C / C++ code style
+[4.553s] -- Configured uncrustify additional arguments: 
+[4.555s] -- Added test 'xmllint' to check XML markup files
+[4.563s] -- Configuring done
+[4.642s] -- Generating done
+[4.662s] -- Build files have been written to: /workspace/ros2_ws/build/crane_x7_control
+[4.689s] Invoked command in '/workspace/ros2_ws/build/crane_x7_control' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake /workspace/ros2_ws/src/crane_x7_ros/crane_x7_control -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/crane_x7_control
+[4.692s] Invoking command in '/workspace/ros2_ws/build/crane_x7_control': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/crane_x7_control -- -j16 -l16
+[4.825s] [ 50%] [32mBuilding CXX object CMakeFiles/crane_x7_hardware.dir/src/crane_x7_hardware.cpp.o[0m
+[16.295s] [100%] [32m[1mLinking CXX shared library libcrane_x7_hardware.so[0m
+[16.824s] [100%] Built target crane_x7_hardware
+[16.854s] Invoked command in '/workspace/ros2_ws/build/crane_x7_control' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --build /workspace/ros2_ws/build/crane_x7_control -- -j16 -l16
+[16.858s] Invoking command in '/workspace/ros2_ws/build/crane_x7_control': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/crane_x7_control
+[16.875s] -- Install configuration: ""
+[16.876s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/crane_x7_hardware.xml
+[16.876s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/lib/libcrane_x7_hardware.so
+[16.879s] -- Set runtime path of "/workspace/ros2_ws/install/crane_x7_control/lib/libcrane_x7_hardware.so" to ""
+[16.879s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/include
+[16.880s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/include/crane_x7_control
+[16.880s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/include/crane_x7_control/crane_x7_hardware.hpp
+[16.880s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/include/crane_x7_control/visibility_control.h
+[16.880s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control//launch
+[16.880s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control//launch/crane_x7_control.launch.py
+[16.881s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control//config
+[16.881s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control//config/manipulator_links.csv
+[16.881s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control//config/crane_x7_controllers.yaml
+[16.881s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control//config/manipulator_config.yaml
+[16.881s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/library_path.sh
+[16.882s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/library_path.dsv
+[16.882s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/package_run_dependencies/crane_x7_control
+[16.883s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/parent_prefix_path/crane_x7_control
+[16.883s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/ament_prefix_path.sh
+[16.884s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/ament_prefix_path.dsv
+[16.884s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/path.sh
+[16.884s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/path.dsv
+[16.885s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.bash
+[16.885s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.sh
+[16.886s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.zsh
+[16.886s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.dsv
+[16.887s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.dsv
+[16.887s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/packages/crane_x7_control
+[16.887s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/crane_x7_control
+[16.887s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.888s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/ament_cmake_export_libraries-extras.cmake
+[16.888s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.888s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/crane_x7_controlConfig.cmake
+[16.888s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/crane_x7_controlConfig-version.cmake
+[16.889s] -- Installing: /workspace/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.xml
+[16.897s] Invoked command in '/workspace/ros2_ws/build/crane_x7_control' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/crane_x7_description:/workspace/ros2_ws/install/move_arm_hockey:/workspace/ros2_ws/install/crane_x7:/workspace/ros2_ws/install/crane_x7_examples:/workspace/ros2_ws/install/crane_x7_moveit_config:/workspace/ros2_ws/install/crane_x7_gazebo:/workspace/ros2_ws/install/crane_x7_control:/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection /usr/bin/cmake --install /workspace/ros2_ws/build/crane_x7_control
