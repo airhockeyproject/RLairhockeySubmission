@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  realsense_ros_docker:
+    image: realsense-ros2-humble_7_14:latest
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - ROS_DOMAIN_ID=0
+      - AMENT_PREFIX_PATH=/opt/ros/humble:/workspace/ros2_camera_ws/install/puck_detection
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./:/workspace
+    command: /bin/bash -c "cd /workspace && source /opt/ros/humble/setup.bash && ros2 launch realsense2_camera rs_launch.py"
+    devices:
+      - /dev/video0:/dev/video0
+      - /dev/video1:/dev/video1
+      - /dev/video2:/dev/video2
+      - /dev/video3:/dev/video3
+      - /dev/video4:/dev/video4
+      - /dev/video5:/dev/video5
+      - /dev/media0:/dev/media0
+      - /dev/media1:/dev/media1
+    device_cgroup_rules:
+      - 'c 81:* rmw'
+      - 'c 189:* rmw'
+    networks:
+      - ros2-net
+networks:
+  ros2-net:
+    external: true

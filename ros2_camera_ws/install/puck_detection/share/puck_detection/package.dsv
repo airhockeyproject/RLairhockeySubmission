@@ -1,0 +1,3 @@
+source;share/puck_detection/hook/pythonpath.ps1
+source;share/puck_detection/hook/pythonpath.dsv
+source;share/puck_detection/hook/pythonpath.sh

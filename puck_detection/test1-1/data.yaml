@@ -1,0 +1,12 @@
+names:
+- chip
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: test1-dprxq
+  url: https://universe.roboflow.com/plub-g8tvv/test1-dprxq/dataset/1
+  version: 1
+  workspace: plub-g8tvv
+test: ../test/images
+train: ../train/images
+val: ../valid/images

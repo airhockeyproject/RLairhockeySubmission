@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/puck_detection/puck_detection.egg-info
+writing ../../build/puck_detection/puck_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/puck_detection/puck_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/puck_detection/puck_detection.egg-info/entry_points.txt
+writing requirements to ../../build/puck_detection/puck_detection.egg-info/requires.txt
+writing top-level names to ../../build/puck_detection/puck_detection.egg-info/top_level.txt
+writing manifest file '../../build/puck_detection/puck_detection.egg-info/SOURCES.txt'
+reading manifest file '../../build/puck_detection/puck_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/puck_detection/puck_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/ros2_camera_ws/build/puck_detection/build
+creating /workspace/ros2_camera_ws/build/puck_detection/build/lib
+creating /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection
+copying puck_detection/puck_detection.py -> /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection
+copying puck_detection/__init__.py -> /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection
+copying puck_detection/command_maker.py -> /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection
+running install
+running install_lib
+creating /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection
+copying /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection/puck_detection.py -> /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection
+copying /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection/__init__.py -> /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection
+copying /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection/command_maker.py -> /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection
+byte-compiling /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection/puck_detection.py to puck_detection.cpython-310.pyc
+byte-compiling /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection/command_maker.py to command_maker.cpython-310.pyc
+running install_data
+creating /workspace/ros2_camera_ws/install/puck_detection/share
+creating /workspace/ros2_camera_ws/install/puck_detection/share/ament_index
+creating /workspace/ros2_camera_ws/install/puck_detection/share/ament_index/resource_index
+creating /workspace/ros2_camera_ws/install/puck_detection/share/ament_index/resource_index/packages
+copying resource/puck_detection -> /workspace/ros2_camera_ws/install/puck_detection/share/ament_index/resource_index/packages
+creating /workspace/ros2_camera_ws/install/puck_detection/share/puck_detection
+copying package.xml -> /workspace/ros2_camera_ws/install/puck_detection/share/puck_detection
+creating /workspace/ros2_camera_ws/install/puck_detection/share/puck_detection/launch
+copying launch/puck_detection.launch.py -> /workspace/ros2_camera_ws/install/puck_detection/share/puck_detection/launch
+running install_egg_info
+Copying ../../build/puck_detection/puck_detection.egg-info to /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection-0.0.0-py3.10.egg-info
+running install_scripts
+Installing command_maker script to /workspace/ros2_camera_ws/install/puck_detection/lib/puck_detection
+Installing puck_detection script to /workspace/ros2_camera_ws/install/puck_detection/lib/puck_detection
+writing list of installed files to '/workspace/ros2_camera_ws/build/puck_detection/install.log'

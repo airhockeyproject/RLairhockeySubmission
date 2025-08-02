@@ -1,0 +1,45 @@
+[0.350s] Invoking command in '/workspace/ros2_camera_ws/src/puck_detection': PYTHONPATH=/workspace/ros2_camera_ws/build/puck_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puck_detection build --build-base /workspace/ros2_camera_ws/build/puck_detection/build install --record /workspace/ros2_camera_ws/build/puck_detection/install.log --single-version-externally-managed install_data
+[0.489s] running egg_info
+[0.490s] creating ../../build/puck_detection/puck_detection.egg-info
+[0.490s] writing ../../build/puck_detection/puck_detection.egg-info/PKG-INFO
+[0.490s] writing dependency_links to ../../build/puck_detection/puck_detection.egg-info/dependency_links.txt
+[0.490s] writing entry points to ../../build/puck_detection/puck_detection.egg-info/entry_points.txt
+[0.490s] writing requirements to ../../build/puck_detection/puck_detection.egg-info/requires.txt
+[0.490s] writing top-level names to ../../build/puck_detection/puck_detection.egg-info/top_level.txt
+[0.490s] writing manifest file '../../build/puck_detection/puck_detection.egg-info/SOURCES.txt'
+[0.491s] reading manifest file '../../build/puck_detection/puck_detection.egg-info/SOURCES.txt'
+[0.492s] writing manifest file '../../build/puck_detection/puck_detection.egg-info/SOURCES.txt'
+[0.492s] running build
+[0.492s] running build_py
+[0.492s] creating /workspace/ros2_camera_ws/build/puck_detection/build
+[0.492s] creating /workspace/ros2_camera_ws/build/puck_detection/build/lib
+[0.492s] creating /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection
+[0.492s] copying puck_detection/puck_detection.py -> /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection
+[0.492s] copying puck_detection/__init__.py -> /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection
+[0.492s] copying puck_detection/command_maker.py -> /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection
+[0.492s] running install
+[0.492s] running install_lib
+[0.493s] creating /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection
+[0.493s] copying /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection/puck_detection.py -> /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection
+[0.493s] copying /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection/__init__.py -> /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection
+[0.493s] copying /workspace/ros2_camera_ws/build/puck_detection/build/lib/puck_detection/command_maker.py -> /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection
+[0.493s] byte-compiling /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection/puck_detection.py to puck_detection.cpython-310.pyc
+[0.494s] byte-compiling /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection/__init__.py to __init__.cpython-310.pyc
+[0.494s] byte-compiling /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection/command_maker.py to command_maker.cpython-310.pyc
+[0.494s] running install_data
+[0.494s] creating /workspace/ros2_camera_ws/install/puck_detection/share
+[0.495s] creating /workspace/ros2_camera_ws/install/puck_detection/share/ament_index
+[0.495s] creating /workspace/ros2_camera_ws/install/puck_detection/share/ament_index/resource_index
+[0.495s] creating /workspace/ros2_camera_ws/install/puck_detection/share/ament_index/resource_index/packages
+[0.495s] copying resource/puck_detection -> /workspace/ros2_camera_ws/install/puck_detection/share/ament_index/resource_index/packages
+[0.495s] creating /workspace/ros2_camera_ws/install/puck_detection/share/puck_detection
+[0.495s] copying package.xml -> /workspace/ros2_camera_ws/install/puck_detection/share/puck_detection
+[0.495s] creating /workspace/ros2_camera_ws/install/puck_detection/share/puck_detection/launch
+[0.495s] copying launch/puck_detection.launch.py -> /workspace/ros2_camera_ws/install/puck_detection/share/puck_detection/launch
+[0.495s] running install_egg_info
+[0.496s] Copying ../../build/puck_detection/puck_detection.egg-info to /workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages/puck_detection-0.0.0-py3.10.egg-info
+[0.496s] running install_scripts
+[0.511s] Installing command_maker script to /workspace/ros2_camera_ws/install/puck_detection/lib/puck_detection
+[0.511s] Installing puck_detection script to /workspace/ros2_camera_ws/install/puck_detection/lib/puck_detection
+[0.511s] writing list of installed files to '/workspace/ros2_camera_ws/build/puck_detection/install.log'
+[0.527s] Invoked command in '/workspace/ros2_camera_ws/src/puck_detection' returned '0': PYTHONPATH=/workspace/ros2_camera_ws/build/puck_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_camera_ws/install/puck_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/puck_detection build --build-base /workspace/ros2_camera_ws/build/puck_detection/build install --record /workspace/ros2_camera_ws/build/puck_detection/install.log --single-version-externally-managed install_data

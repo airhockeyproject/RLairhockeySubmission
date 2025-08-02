@@ -1,0 +1,4 @@
+[console_scripts]
+command_maker = puck_detection.command_maker:main
+puck_detection = puck_detection.puck_detection:main
+
